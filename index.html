@@ -124,13 +124,13 @@
     var dContainer = document.getElementById("container");
     // 全局变量
     var sw = 320;
-    var sh = 568;
+    var sh = 768;
 
     var timer = null;
 
     if (isPhone()) {
-        sw = document.documentElement.clientWidth + 'px';
-        sh = document.documentElement.clientHeight + 'px';
+        sw = document.documentElement.clientWidth// + 'px';
+        sh = document.documentElement.clientHeight// + 'px';
         dContainer.style.width = sw;
         dContainer.style.height = sh;
     }
